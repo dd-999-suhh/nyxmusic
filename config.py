@@ -84,22 +84,22 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/07qkie.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/4a1gxb.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/wFGtd27V/x.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/4a1gxb.jpg"
 )
 PLAYLIST_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-STATS_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-TELEGRAM_AUDIO_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-TELEGRAM_VIDEO_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-STREAM_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/4a1gxb.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/4a1gxb.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/4a1gxb.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/4a1gxb.jpg"
 SOUNCLOUD_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-YOUTUBE_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/4a1gxb.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://i.ibb.co/0VnyqcDm/x.jpg"
-CUSTOM_THUMB_URL = getenv("CUSTOM_THUMB_URL", "https://n.uguu.se/lEAsLEik.jpg")
+CUSTOM_THUMB_URL = getenv("CUSTOM_THUMB_URL", "https://files.catbox.moe/wser72.jpg")
 
 
 def time_to_seconds(time):
@@ -121,17 +121,3 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
